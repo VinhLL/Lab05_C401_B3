@@ -46,42 +46,42 @@ Tôi đảm nhận vai trò **QA Engineer & Testing Lead** cho dự án VinFast 
 
 ### 7. Xác Nhận Các Flow Chính
 
-#### ✅ Tra Cứu Bảo Hành
+####  Tra Cứu Bảo Hành
 - User hỏi về warranty của xe
 - AI truy vấn database, trả về thông tin bảo hành chính xác
 - Kiểm thử với nhiều xe khác nhau
 
-#### ✅ Policy
+####  Policy
 - User hỏi về chính sách bảo hành
 - AI cung cấp thông tin policy từ warranty_policy.json
 - Xác nhận thông tin chính xác và đầy đủ
 
-#### ✅ Chẩn Đoán
+####  Chẩn Đoán
 - User mô tả triệu chứng lỗi
 - AI sử dụng error codes để chẩn đoán
 - Gợi ý giải pháp hoặc hướng dẫn liên hệ service center
 
-#### ✅ Đặt Lịch
+####  Đặt Lịch
 - User yêu cầu đặt lịch bảo hành
 - AI gọi tool `book_service_appointment`
 - Booking được tạo với trạng thái PENDING
 
-#### ✅ Xác Nhận Booking
+####  Xác Nhận Booking
 - User xác nhận booking qua endpoint `/api/booking/confirm`
 - Trạng thái chuyển từ PENDING → CONFIRMED
 - Thông tin booking được lưu lại
 
-#### ✅ Đổi Lịch
+####  Đổi Lịch
 - User yêu cầu thay đổi thời gian booking
 - AI hỗ trợ hủy booking cũ và tạo booking mới
 - Xác nhận thay đổi thành công
 
-#### ✅ TTL Expiry
+####  TTL Expiry
 - Booking PENDING tự động hết hạn sau 5 phút
 - Background worker xử lý TTL expiry
 - Booking chuyển về AVAILABLE
 
-#### ✅ Out-of-Scope
+####  Out-of-Scope
 - Xác định các yêu cầu ngoài phạm vi hệ thống
 - AI từ chối hoặc hướng dẫn liên hệ support
 - Không xử lý các request không liên quan
@@ -115,4 +115,4 @@ Tôi đảm nhận vai trò **QA Engineer & Testing Lead** cho dự án VinFast 
 ---
 
 **Ngày hoàn thành**: 2026-04-09  
-**Status**: ✅ Hoàn thành toàn bộ kiểm thử
+**Status**:  Hoàn thành toàn bộ kiểm thử
